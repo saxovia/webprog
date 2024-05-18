@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hu" class="keszitese">
+
+<head>
+    <title>Készítése - A kávé alapjai</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" title="style">
+    <link rel="alternate stylesheet" type="text/css" href="css/accessible.css" title="accessible">
+    <link rel="stylesheet" type="text/css" href="./css/print.css" media="print">
+    <script src="scripts/navbar.js"></script>
+    <meta name="author" content="Szász Olívia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/icons/coffee.png">
+</head>
+
+<body>
+    <nav class="kipozicional">
+        <a href="#content">Ugrás a tartalomra</a>
+    </nav>
+    <a id="nagybetu" accesskey="i" href="#" onclick="setActiveStyleSheet('accessible'); return false;"><img
+            src="images/icons/switchicon.png" alt="Nagybetűs változat [I]" class="switchicon"></a>
+    <a id="normalbetu" accesskey="o" href="#" onclick="setActiveStyleSheet('style'); return false;"><img
+            class="switchicon" src="images/icons/switchicon.png" alt="Normálbetűs változat [O]"></a>
+    <main>
+        <header>
+            <a id="notunderlined" href="./index.html">
+                <div class="navleft">
+
+                    <figure class="navicon"><img id="coffeeicon" src="./images/icons/coffee.png" alt="Kávé ikon">
+                    </figure>
+                    <h1>A kávé alapjai</h1>
+
+                </div>
+            </a>
+            <nav class="oldalmenu" id="myTopnav">
+                <a href="./index.html">Kezdőlap</a>
+                <a href="./keszitese.html" class="active">Készítése</a>
+                <a href="./fozese.html">Főzése</a>
+                <a href="./urlap.html">Hírlevél</a>
+                <a href="javascript:void(0);" class="icon" id="toggle-icon" onclick="myFunction()">
+                    <img src="images/icons/toggle-icon.png" alt="Menu icon">
+                </a>
+            </nav>
+
+        </header>
+
+
+        <div class="content" id="contentstart">
+
+            <h1>Mi a kávé?</h1>
+                <p>A kávé az egyik legnépszerűbb ital a világon, amelyet többnyire reggelente fogyasztunk, hogy
+                    felkészüljünk a napra. Azonban a kávé nem csak egy ital, hanem egy gyümölcs is, amely a Coffea nevű
+                    cserjének a terméséből készül. A kávé termése a kávécseresznye nevet kapta, amelynek belsejében a
+                    kávészemek találhatóak. A kávé nemcsak folyékony formában élvezhető, hanem a kávészemeket is lehet
+                    enni,
+                    azonban ahhoz, hogy a reggeli italunkhoz juttassuk, azoknak számos feldolgozási lépésen kell
+                    keresztülmenniük. A következőkben ezeket mutatjuk be.</p>
+            <div class="termesztes">
+
+                <aside>
+                    <br>
+                    <h2>Termesztés</h2>
+                    <p>A kávé világszerte képes megteremni, de vannak bizonyos régiók, ahol kifejezetten jól érzi magát:
+                        a
+                        Ráktérítő és a Baktéritő között, az Egyenlítő "Kávéövnek" nevezett zónájában. Kedveli a trópusi
+                        éghajlatot, a 1200 m feletti hegyvidékeket (lassabban terem, de jobb minőségű, ízletesebb lesz a
+                        kávé) ,
+                        és a termékeny talajokat (mely zamatosabbá teszi).</p>
+
+                    <p>A legfontosabb 2 fajtája a kávénak: Arabica és Robusta (bár van keverék is)</p>
+                </aside>
+                <div class="formattedvid">
+                    <video width="500" height="280" poster="./video/thumbnail.png" controls>
+                        <source src="./video/whatiscoffee.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        A böngésződ nem támogatja a video tag-et.
+                    </video>
+                    <p><a href="./video/transcript.html">Átirat</a></p>
+                </div>
+            </div>
+            <article>
+                <h2>Szüretelés</h2>
+                <p>Ahogy az eper, úgy a kávécseresznye sem egyszerre érik be, és mihelyt leszedték, nem érik tovább.
+                    Ezért
+                    kézzel kell szüretelni (bár a nagyobb gazdaságokban, főként Brazíliában történt némi gépesítés). A
+                    kézi
+                    szedés nehéz, fárasztó munka, mert a szedőknek többször vissza kell térniük egy-egy cserjéhez, ahogy
+                    a
+                    bogyók érnek. Két fő szüretelési módszer van: kopasztás és a szelektív szedés.</p>
+            </article>
+            <article>
+                <h2>Feldolgozás</h2>
+                <p>A leszedett kávécseresznye még nem alkalmas a pörkölésre. Először fel kell dolgozni, ami a kávé
+                    világában
+                    azt a művészetet jelenti, amikor a babot kiszedik a cseresznyéből. Három alapvető feldolgozási
+                    módszer
+                    van, mindegyik jelentősen hat a kávé zamatára:</p>
+                <ul>
+                    <li>Természetes/száraz: napon szárítják a cseresznyét, amely édesesebb, gyümölcsösebb ízt ad.</li>
+                    <li>Mosott, nedves: gépben szárítás, specialty kávék készítésére használják.</li>
+                    <li>Félmosott: az előző két módszer keveréke, édes és tisztább ízt eredményez.</li>
+
+                </ul>
+            </article>
+            <article>
+            <h2>Pörkölés</h2>
+                <p>Elméletileg biztonságos nyers kávébabot enni, de olyan kemény és tömör, hogy nem túlzottan
+                    biztonságos a
+                    fogaknak, vagy a kávédarálónak.
+                    A pörkölés egyszerre tudomány és művészet. Pontosságot és termodinamikai ismereteket követel, mégis
+                    teljesen személyes; két pörkölőnek teljesen eltérő véleménye lehet arról, hogyan kell pörkölni
+                    bizonyos
+                    kávét. A legtöbb pörkölő ugyanazzal a z eszközzel kezdi, a forgó hengeres pörkölődobbal, és
+                    ugyanazzal a
+                    két változóval, a hőmérséklettel és az idővel dolgoznak.
+                    Folyamatai időrendben: Párolgás, Maillard-reakció, A cukrok karamellizálódása, Az "első reccsenés".
+                </p>
+            </article>
+
+            <article>
+                <h2>Őrlés és főzés</h2>
+                <p>A kávéskészítés első három lépése - termesztés, szüretelés és feldolgozás- a kávétermelő országban
+                    történik, gyakran abban a gazdaságban, ahol a kávé terem. A további kettő ideális esetben ott
+                    zajlik,
+                    ahol a kávét fogyasztják - mert az őrlésnél és a főzésnél jó, ha a kávékedvelők ügyelhetnek a
+                    késztermékre. Erről a "Főzése" oldalon tudhat meg többet.</p>
+            </article>
+            <br>
+            <table>
+
+                <caption><strong>Koffein összehasonlítás</strong>
+                    <details>
+                        <summary>Összefoglaló</summary>
+                        <p>A táblázat 2 részből áll, az első rész az ital neve. A táblázat második felében peddig az
+                            abban 1 csészényi (2.5dl) megfelelő koffeintartalom. </p>
+                    </details>
+
+                </caption>
+                <tr style="background-color: rgb(255, 235, 210);">
+                    <th style="background-color: rgb(238, 211, 176);">Ital</th>
+                    <th style="background-color: rgb(238, 211, 176);">Koffeintartalom 1 csészében (2.5dl)</th>
+                </tr>
+
+                <tr>
+                    <th>Koffeinmentes kávé</th>
+                    <th>2-12mg</th>
+                </tr>
+                <tr>
+                    <th>Coca Cola</th>
+                    <th>21mg</th>
+                </tr>
+                <tr>
+                    <th>Eszpresszó</th>
+                    <th>60mg</th>
+                </tr>
+                <tr>
+                    <th>Instant kávé</th>
+                    <th>62mg</th>
+                </tr>
+                <tr>
+                    <th>Red Bull</th>
+                    <th>80mg</th>
+                </tr>
+                <tr>
+                    <th>Főzőtt kávé</th>
+                    <th>95-165mg</th>
+                </tr>
+                <tr>
+                    <th>Starbucks Nitro (hidegen)</th>
+                    <th>140mg</th>
+                </tr>
+
+            </table>
+
+        </div>
+        <p style="text-align: center;"><a class="jumptobeginning" href="#contentstart">Vissza a tetejére</a></p><br>
+        <footer>
+            <p>Készítette: Szász Olívia, Fő anyagforrás: <a
+                    href="https://www.libri.hu/konyv/kaveivok-zsebkonyve.html?gclid=EAIaIQobChMIlLv53fHi_QIVCsnVCh1UiQAhEAQYASABEgKVU_D_Bw">Kávéivók
+                    zsebkönyve – Candace Rose Rardon (Corvina Kiadó)</a></p>
+
+        </footer>
+
+    </main>
+</body>
+
+</html>

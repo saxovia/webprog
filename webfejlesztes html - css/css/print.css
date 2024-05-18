@@ -1,0 +1,98 @@
+html,body,main, .content, section#mainhirlevel, .keszitese .content,
+.fozese .content {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    color: black;
+    margin: 0px;
+    text-align: justify;
+    padding-bottom: 0px;
+    text-indent: 0%;
+    font-size: 100%;
+}
+body{
+    width: 100%;
+}
+a#normalbetu {
+    display: block;
+}
+
+a#nagybetu {
+    display: none;
+}
+a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: none;
+}
+
+video {
+    display: none;
+}
+
+.switchicon {
+    display: none;
+}
+
+.kipozicional {
+    display: none;
+}
+
+.jumptobeginning {
+    display: none;
+}
+.button,
+.button:visited,
+.button:link {
+    display: none;
+}
+section#mainhirlevel {
+    display: none;
+}
+details, summary {
+    display: none;
+}
+.formattedvid {
+    display: none;
+}
+input#resett,
+input#submitt, .keszitesbutton{
+    display: none;
+}
+p#wiki{
+    display: none;
+}
+
+div,
+article,
+section,
+aside, body, main, .index .content, .termesztes {
+    padding: 0px;
+    margin:auto;
+    color: black;
+}
+article{padding-bottom: 10px;}
+h1{
+    padding: 0px;
+}
+
+footer {
+    display: none;
+}
+
+img, img#headerimage, img#bartender, img#pikachu {
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+}
+article#mainkeszites div, article#mainkeszites, article#mainfozes div, article#mainfozes, div#mainheader, div#mainheader aside {
+    margin: 0px;
+    padding: 0px;
+    /*margin-top: 20px;*/
+  }
+  article#mainkeszites div, article#mainfozes div, div#mainheader aside {
+    width: 70%;
+  }

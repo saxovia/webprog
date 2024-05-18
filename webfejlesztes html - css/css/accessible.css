@@ -1,0 +1,100 @@
+@import url('style.css');
+
+html {
+    font-size: 135%;
+}
+
+a#normalbetu {
+    display: block;
+}
+
+a#nagybetu {
+    display: none;
+}
+
+.navleft img {
+    width: 50px;
+    height: 50px;
+}
+img#imgtoggleicon{
+    width: 50px;
+    height: 50px;
+}
+
+.oldalmenu a:not(:first-child) {
+    display: none;
+}
+
+.oldalmenu a.icon {
+    float: right;
+    display: block;
+}
+
+.oldalmenu.responsive {
+    position: relative;
+}
+
+.oldalmenu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.oldalmenu.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+}
+
+div#mainheader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img#headerimage {
+    flex: 0 0 auto;
+    margin: 0%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div#mainheader aside {
+    margin: 50px;
+    font-size: 90%;
+}
+
+
+article#mainkeszites {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 8%;
+}
+
+img#sprout {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 0%;
+    align-items: center;
+}
+
+article#mainkeszites div {
+    width: 100%;
+    margin: 10px;
+}
+
+img#bartender {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img#pikachu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}

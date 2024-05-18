@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu" class="index">
+
+<head>
+    <title>A kávé alapjai - Kezdőlap</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" title="style">
+    <link rel="alternate stylesheet" type="text/css" href="css/accessible.css" title="accessible">
+    <link rel="stylesheet" type="text/css" href="./css/print.css" media="print">
+    <script src="scripts/navbar.js"></script>
+    <meta name="author" content="Szász Olívia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icons/coffee.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="kipozicional">
+        <a href="#content">Ugrás a tartalomra</a>
+    </nav>
+    <a id="nagybetu" accesskey="i" href="#" onclick="setActiveStyleSheet('accessible'); return false;"><img
+            src="images/icons/switchicon.png" alt="Nagybetűs változat [I]" class="switchicon"></a>
+    <a id="normalbetu" accesskey="o" href="#" onclick="setActiveStyleSheet('style'); return false;"><img
+            class="switchicon" src="images/icons/switchicon.png" alt="Normálbetűs változat [O]"></a>
+    <main>
+        <header>
+            <a id="notunderlined" href="./index.html">
+                <div class="navleft">
+
+                    <figure class="navicon"><img id="coffeeicon" src="./images/icons/coffee.png" alt="Kávé ikon">
+                    </figure>
+                    <h1>A kávé alapjai</h1>
+
+                </div>
+            </a>
+            <nav class="oldalmenu" id="myTopnav">
+                <a href="./index.html" class="active">Kezdőlap</a>
+                <a href="./keszitese.html">Készítése</a>
+                <a href="./fozese.html">Főzése</a>
+                <a href="./urlap.html">Hírlevél</a>
+                <a href="javascript:void(0);" class="icon" id="toggle-icon" onclick="myFunction()">
+                    <img id="imgtoggleicon" src="images/icons/toggle-icon.png" alt="Menu icon">
+                </a>
+            </nav>
+
+        </header>
+
+
+        <div class="content" id="content">
+
+            <div id="mainheader">
+                <img id="headerimage" src="./images/headerimg.webp" alt="Egy csésze kávé felülnézetből fotózva.">
+                <aside>
+                    <p>Szereti a kávét? <strong>A kávé nem csak egy ital</strong>, hanem egy <i>életstílus</i> és <i>kultúra</i> is. A kávé világa
+                        azonban bonyolultabb, mint gondolnád. Oldalunkon megtalálja röviden összefoglalva a kávé
+                        történetét, fajtáit,
+                        felszolgálását, kulturáit és elkészítési módjait.</p>
+                    <br>
+                    <span style="font-size: 150%;">
+                        <strong>Tudjon meg többet!</strong>
+                    </span>
+                </aside>
+            </div>
+            <br>
+            <article id="mainkeszites">
+                <div>
+                    <h2>Hogyan készül a kávé?</h2>
+                    <p> Első látszatra a <strong>kávébab</strong> egy hagyományos zöld növény, viszont a kávé <strong>kinyerését</strong> akár művészetnek
+                        is nevezhetnénk, melyben a termelő, a feldolgozó, a pörkölő, és mi is közreműködünk, hogy
+                        elnyerjük azt az ízvilágot melyet olyan jól ismerünk.</p>
+                    <br>
+                    <a class="button" href="./keszitese.html">Bővebben</a>
+                </div>
+                <a href="./images/sprout.png"><img id="sprout" src="images/sprout.png"
+                        alt="Kávécserjék felsorakoztatva."></a>
+
+            </article>
+
+
+            <br>
+            <article id="mainfozes">
+                <a href="images/pouring.webp"><img id="pouring" src="images/pouring.webp"
+                        alt="Egy személy kávét készít/önt ki egy csészébe."></a>
+                <div>
+                    <h2>A kávé főzése</h2>
+                    <p>A kávéfőzés olyan összetett folyamat, amelyben a megfelelő <i>arányok</i>, a víz <strong>hőmérséklete</strong>
+                        és a <strong>darálás finomsága</strong> egyaránt számít. Azonban a kávéfőzés nem csak tudomány, hanem élmény is:
+                        az illatok és az ízek varázslatos keveréke, amelyek életre keltik az érzékszerveinket és
+                        segítenek elindítani a napunkat. Érdemes időt szakítani arra, hogy a kávéfőzést tökélyre
+                        fejlesszük és így élvezzük a finomabbnál finomabb kávékat.</p>
+                    <ul>
+                        <li><a href="fozese.html#kotyogos">Kotyogós</a></li>
+                        <li><a href="fozese.html#filteres">Filteres</a></li>
+                        <li><a href="fozese.html#dugyattyus">Dugattyús (FrenchPress)</a></li>
+                        <li><a href="fozese.html#hideg">Hideg (csepegtetett)</a></li>
+                    </ul>
+                </div>
+            </article>
+            <br>
+            <section id="mainhirlevel">
+                <h2>Szeretne többet tudni vagy visszajelzést küldeni?</h2>
+                <p>Az alábbi űrlapot kitöltve <strong>e-mail címe megadásával</strong> megteheti! Ha regisztrál a hírlevelünkre, havonta
+                    ismeretterjesztő és hírközlő leveleket postázunk Önnek <strong>kizárólag a kávéról.</strong></p>
+                <a class="button" href="./urlap.html">Iratkozzon fel a hírlevelünkre!</a>
+
+            </section>
+
+        </div>
+        <p style="text-align: center;"><a class="jumptobeginning" href="#mainheader">Vissza a tetejére</a></p><br>
+        <footer>
+            <p>Készítette: Szász Olívia, Fő anyagforrás: <a
+                    href="https://www.libri.hu/konyv/kaveivok-zsebkonyve.html?gclid=EAIaIQobChMIlLv53fHi_QIVCsnVCh1UiQAhEAQYASABEgKVU_D_Bw">Kávéivók
+                    zsebkönyve – Candace Rose Rardon (Corvina Kiadó)</a></p>
+
+        </footer>
+
+    </main>
+</body>
+
+</html>
