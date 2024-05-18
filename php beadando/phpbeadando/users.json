@@ -1,0 +1,47 @@
+{
+    "admin": {
+        "username": "admin",
+        "password": "admin",
+        "email": "",
+        "money": 0,
+        "adminaccess": true,
+        "cards": [],
+        "id": "admin"
+    },
+    "user1": {
+        "username": "user1",
+        "password": "user1",
+        "email": "user1@yes.com",
+        "money": 10000,
+        "adminaccess": false,
+        "cards": [],
+        "id": "user1"
+    },
+    "65a419a799829": {
+        "username": "user2",
+        "email": "medel76791@galcake.com",
+        "password": "asd",
+        "money": 1000,
+        "adminaccess": false,
+        "cards": [],
+        "id": "65a419a799829"
+    },
+    "65a41b940d491": {
+        "username": "user4",
+        "email": "asd@asd.com",
+        "password": "asd",
+        "money": 1000,
+        "adminaccess": false,
+        "cards": [],
+        "id": "65a41b940d491"
+    },
+    "65a41bbcc2b48": {
+        "username": "user5",
+        "email": "asd@asd.com",
+        "password": "asd",
+        "money": 1000,
+        "adminaccess": false,
+        "cards": [],
+        "id": "65a41bbcc2b48"
+    }
+}
